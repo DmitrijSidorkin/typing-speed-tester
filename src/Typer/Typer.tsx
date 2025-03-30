@@ -1,8 +1,8 @@
-import React, { ReactNode, useState } from "react";
+import React, { useState } from "react";
 import { TyperInput } from "./TyperInput/TyperInput";
 import { Timer } from "./Timer/Timer";
 import { WPMCounter } from "./WPMCounter/WPMCounter";
-import paragraphs from "../paragraphs.js";
+import paragraphs from "../paragraphs.tsx";
 
 type TyperProps = {
   testText: string;

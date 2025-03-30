@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import "./TyperInput.css";
 
 type TyperInputProps = {
@@ -13,7 +12,6 @@ type TyperInputProps = {
   setEndTime: React.Dispatch<React.SetStateAction<number>>;
   setMistakesCount: React.Dispatch<React.SetStateAction<number>>;
   setLastInputTime: React.Dispatch<React.SetStateAction<number>>;
-  setInputEl: React.Dispatch<React.SetStateAction<ReactNode>>;
 };
 
 export const TyperInput: React.FC<TyperInputProps> = ({
